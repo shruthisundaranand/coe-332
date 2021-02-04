@@ -1,0 +1,144 @@
+{
+  "animals": [
+    {
+      "head:": "bull",
+      "body:": "collie-mollusk",
+      "arms:": 10,
+      "legs:": 3,
+      "tail:": 13
+    },
+    {
+      "head:": "raven",
+      "body:": "scorpion-mustang",
+      "arms:": 4,
+      "legs:": 6,
+      "tail:": 10
+    },
+    {
+      "head:": "raven",
+      "body:": "elk-fawn",
+      "arms:": 4,
+      "legs:": 3,
+      "tail:": 7
+    },
+    {
+      "head:": "bull",
+      "body:": "humpback-dane",
+      "arms:": 10,
+      "legs:": 3,
+      "tail:": 13
+    },
+    {
+      "head:": "raven",
+      "body:": "leopard-flamingo",
+      "arms:": 5,
+      "legs:": 9,
+      "tail:": 14
+    },
+    {
+      "head:": "raven",
+      "body:": "bream-tick",
+      "arms:": 4,
+      "legs:": 3,
+      "tail:": 7
+    },
+    {
+      "head:": "raven",
+      "body:": "earwig-buck",
+      "arms:": 7,
+      "legs:": 3,
+      "tail:": 10
+    },
+    {
+      "head:": "lion",
+      "body:": "skylark-imp",
+      "arms:": 5,
+      "legs:": 9,
+      "tail:": 14
+    },
+    {
+      "head:": "snake",
+      "body:": "griffon-sparrow",
+      "arms:": 8,
+      "legs:": 12,
+      "tail:": 20
+    },
+    {
+      "head:": "raven",
+      "body:": "cougar-oarfish",
+      "arms:": 7,
+      "legs:": 3,
+      "tail:": 10
+    },
+    {
+      "head:": "snake",
+      "body:": "cat-seasnail",
+      "arms:": 5,
+      "legs:": 3,
+      "tail:": 8
+    },
+    {
+      "head:": "snake",
+      "body:": "grubworm-boa",
+      "arms:": 9,
+      "legs:": 9,
+      "tail:": 18
+    },
+    {
+      "head:": "bunny",
+      "body:": "tiger-quail",
+      "arms:": 3,
+      "legs:": 3,
+      "tail:": 6
+    },
+    {
+      "head:": "raven",
+      "body:": "skink-guppy",
+      "arms:": 7,
+      "legs:": 6,
+      "tail:": 13
+    },
+    {
+      "head:": "bunny",
+      "body:": "fowl-shiner",
+      "arms:": 7,
+      "legs:": 12,
+      "tail:": 19
+    },
+    {
+      "head:": "bunny",
+      "body:": "buffalo-labrador",
+      "arms:": 6,
+      "legs:": 6,
+      "tail:": 12
+    },
+    {
+      "head:": "bunny",
+      "body:": "cub-whippet",
+      "arms:": 5,
+      "legs:": 9,
+      "tail:": 14
+    },
+    {
+      "head:": "raven",
+      "body:": "drum-hen",
+      "arms:": 9,
+      "legs:": 9,
+      "tail:": 18
+    },
+    {
+      "head:": "snake",
+      "body:": "buck-herring",
+      "arms:": 5,
+      "legs:": 3,
+      "tail:": 8
+    },
+    {
+      "head:": "raven",
+      "body:": "mosquito-pig",
+      "arms:": 10,
+      "legs:": 3,
+      "tail:": 13
+    }
+  ]
+}

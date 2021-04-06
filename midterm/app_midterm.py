@@ -126,5 +126,6 @@ def total_animals():
     count = len(animals6)
     return jsonify ({'count': count})
 
+rd = redis.StrictRedis(host='redis', port6379, db=0
 
 app.run(debug= True, host = '0.0.0.0')

@@ -1,0 +1,19 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: homework05b
+  labels:
+    version: "1.0"
+    greeting: personalized
+spec:
+  containers:
+    - name: homework05b
+      image: ubuntu:18.04
+      env:
+      - name: NAME
+      value: "Shruthi"
+      command: ['sh', '-c', 'echo "Hello, $(NAME)!" && sleep 3600']
+
+
+

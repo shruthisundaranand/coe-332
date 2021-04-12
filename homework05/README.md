@@ -62,6 +62,12 @@ For part B, the file is called pod-homework05b.yml in the Github. It is also loc
 
 ### 2. Check the logs of the pod. What is the output? Copy and paste the command used and the output.
 
+The input is:
+
+``` bash
+kubectl logs homework05b
+```
+
 The output should be:
 
 ``` bash
@@ -83,4 +89,40 @@ pod "homework05b" deleted
 ```
 
 ## Part C
+
+### 1. Include the yaml file used and the command issued to create the pod.
+
+The yml file is in the homework05 folder in my GitHub.
+
+### 2. First, use kubectl to get all the pods in the deployment and their IP address. Copy and paste the command used and the output.
+
+``` bash
+kubectl get pods -o wide
+```
+
+| Pods in Deployment  | IP address |
+| ------------- | ------------- |
+| hw05-deployment-565979bd6-7gkss | 10.244.7.124 |
+| hw05-deployment-565979bd6-m9l5d | 10.244.3.133  |
+| hw05-deployment-565979bd6-xjvx4 | 10.244.6.142  |
+
+
+
+### 3. Now, check the logs associated with each pod in the deployment. Does it match what you got in 2? Copy and paste the commands and the output.
+
+The input is:
+
+``` bash 
+kubectl logs hw05-deployment-565979bd6-7gkss
+kubectl logs hw05-deployment-565979bd6-m9l5d
+kubectl logs hw05-deployment-565979bd6-xjvx4
+```
+
+The output is:
+
+``` bash
+Hello, Shruthi from IP 10.244.7.124!
+Hello, Shruthi from IP 10.244.3.133!
+Hello, Shruthi from IP 10.244.6.142!
+```
 

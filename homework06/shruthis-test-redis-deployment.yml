@@ -1,0 +1,32 @@
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shruthis-test-deployment
+  labels:
+    username: shruthis
+    env: test
+    app: shruthis-test-redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shruthis-test-redis
+  template:
+    metadata:
+      labels:
+        username: shruthis
+        env: test
+        app: shruthis-test-redis
+    spec:
+      containers:
+        - name: redis-test
+          image: redis:5.0.0 
+          volumeMounts:
+          - name: shruthis-test-pvc
+            mountPath: "/data"
+      volumes:
+      - name: shruthis-test-pvc
+        persistentVolumeClaim:
+          claimName: shruthis-test-pvc

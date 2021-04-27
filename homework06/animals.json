@@ -1,0 +1,185 @@
+{
+  "animals": [
+    {
+      "uid": "cc495d1d-16de-4329-9a75-fa21a6656ee6",
+      "head": "snake",
+      "body": "grub-mongoose",
+      "arms": 4,
+      "legs": 9,
+      "tails": 13,
+      "created_on": "2021-03-28 22:26:24.435354"
+    },
+    {
+      "uid": "ee17ed8a-feb8-4229-9e3c-d237e2ff82a9",
+      "head": "raven",
+      "body": "worm-glowworm",
+      "arms": 10,
+      "legs": 6,
+      "tails": 16,
+      "created_on": "2021-03-28 22:26:24.435434"
+    },
+    {
+      "uid": "aa80efc7-216d-45aa-80b9-3c49f9c06b8e",
+      "head": "bunny",
+      "body": "racer-monster",
+      "arms": 8,
+      "legs": 6,
+      "tails": 14,
+      "created_on": "2021-03-28 22:26:24.435478"
+    },
+    {
+      "uid": "479e8758-9a77-48c5-bb4c-30c30956e4de",
+      "head": "bunny",
+      "body": "opossum-zebra",
+      "arms": 4,
+      "legs": 3,
+      "tails": 7,
+      "created_on": "2021-03-28 22:26:24.435516"
+    },
+    {
+      "uid": "69730aab-6968-41bc-8ee9-031780b1bdcf",
+      "head": "snake",
+      "body": "bear-redfish",
+      "arms": 4,
+      "legs": 6,
+      "tails": 10,
+      "created_on": "2021-03-28 22:26:24.435552"
+    },
+    {
+      "uid": "0f183564-fbda-477e-af02-786dccfb8b18",
+      "head": "lion",
+      "body": "dodo-pelican",
+      "arms": 6,
+      "legs": 6,
+      "tails": 12,
+      "created_on": "2021-03-28 22:26:24.435589"
+    },
+    {
+      "uid": "db58bc89-c05b-4799-9a2a-81de54e8623b",
+      "head": "bunny",
+      "body": "tomcat-flamingo",
+      "arms": 6,
+      "legs": 9,
+      "tails": 15,
+      "created_on": "2021-03-28 22:26:24.435626"
+    },
+    {
+      "uid": "664428e9-6283-48e6-bbd4-1efea0d2326c",
+      "head": "lion",
+      "body": "ewe-shiner",
+      "arms": 4,
+      "legs": 12,
+      "tails": 16,
+      "created_on": "2021-03-28 22:26:24.435661"
+    },
+    {
+      "uid": "b2da864b-bd09-45fb-a0ab-91f375e6f7ed",
+      "head": "snake",
+      "body": "haddock-kitten",
+      "arms": 4,
+      "legs": 3,
+      "tails": 7,
+      "created_on": "2021-03-28 22:26:24.435696"
+    },
+    {
+      "uid": "9297c93d-6bde-4ff6-ad39-f3b101321115",
+      "head": "raven",
+      "body": "stinkbug-warthog",
+      "arms": 4,
+      "legs": 12,
+      "tails": 16,
+      "created_on": "2021-03-28 22:26:24.435731"
+    },
+    {
+      "uid": "1b7fb637-b9b6-49df-93cd-88e17dc72528",
+      "head": "bunny",
+      "body": "fawn-gopher",
+      "arms": 6,
+      "legs": 9,
+      "tails": 15,
+      "created_on": "2021-03-28 22:26:24.435764"
+    },
+    {
+      "uid": "69b516be-5803-4eed-b94d-23f58c0d4d21",
+      "head": "bunny",
+       "body": "buzzard-halibut",
+      "arms": 8,
+      "legs": 3,
+      "tails": 11,
+      "created_on": "2021-03-28 22:26:24.435798"
+    },
+    {
+      "uid": "46af7145-4758-4dd3-a073-d63b8af1e6be",
+      "head": "lion",
+      "body": "opossum-cobra",
+      "arms": 10,
+      "legs": 12,
+      "tails": 22,
+      "created_on": "2021-03-28 22:26:24.435832"
+    },
+    {
+      "uid": "9a396f3a-41fa-452c-8727-60fbabc1728a",
+      "head": "bull",
+      "body": "crab-hamster",
+      "arms": 8,
+      "legs": 3,
+      "tails": 11,
+      "created_on": "2021-03-28 22:26:24.435864"
+    },
+    {
+      "uid": "c188321c-e9f7-4ead-a3a5-c05c27f7b4de",
+       "head": "lion",
+      "body": "cardinal-hyena",
+      "arms": 8,
+      "legs": 6,
+      "tails": 14,
+      "created_on": "2021-03-28 22:26:24.435898"
+    },
+    {
+      "uid": "60a001fb-df3c-47cc-bd73-064825673f01",
+      "head": "bull",
+      "body": "snake-bream",
+      "arms": 6,
+      "legs": 9,
+      "tails": 15,
+      "created_on": "2021-03-28 22:26:24.435932"
+    },
+    {
+      "uid": "c44ae908-0fc5-49ba-a7a5-7260c1110ca2",
+      "head": "lion",
+      "body": "blowfish-dogfish",
+      "arms": 6,
+      "legs": 9,
+      "tails": 15,
+      "created_on": "2021-03-28 22:26:24.435966"
+    },
+    {
+      "uid": "b3a0ad92-005e-4f61-9018-79f413d0dbbf",
+      "head": "snake",
+      "body": "swift-kiwi",
+      "arms": 4,
+      "legs": 9,
+      "tails": 13,
+      "created_on": "2021-03-28 22:26:24.436000"
+    },
+    {
+      "uid": "385b9888-743e-400d-8b01-7910b66e57e1",
+      "head": "snake",
+      "body": "wasp-molly",
+      "arms": 2,
+      "legs": 9,
+      "tails": 11,
+      "created_on": "2021-03-28 22:26:24.436033"
+    },
+    {
+      "uid": "b7b78225-133b-4601-9526-2d8c9f64e4ae",
+      "head": "lion",
+      "body": "crawfish-dog",
+      "arms": 2,
+      "legs": 12,
+      "tails": 14,
+      "created_on": "2021-03-28 22:26:24.436068"
+    }
+  ]
+}
+

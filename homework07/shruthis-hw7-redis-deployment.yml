@@ -1,0 +1,30 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis-pvc-deployment-hw7
+  labels:
+    username: shruthis
+    env: test
+    app: shruthis-hw7-redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shruthis-hw7-redis
+  template:
+    metadata:
+      labels:
+        app: shruthis-hw7-redis
+    spec:
+      containers:
+        - name: redis-container
+          image: redis:5.0.0
+          volumeMounts:
+          - name: redis-shruthis-hw7
+            mountPath: "/data"
+      volumes:
+      - name: redis-shruthis-hw7
+        persistentVolumeClaim:
+          claimName: redis-shruthis-hw7
+

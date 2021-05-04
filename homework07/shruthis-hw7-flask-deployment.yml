@@ -1,0 +1,33 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shruthis-hw7-flask-deployment
+  labels:
+    app: shruthis-hw7-flask
+    username: shruthis
+    env: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shruthis-hw7-flask
+  template:
+    metadata:
+      labels:
+        app: shruthis-hw7-flask
+    spec:
+      containers:
+        - name: flask-container
+          imagePullPolicy: Always
+          image: shruthisundaranand/shruthis-hw7
+          command: ['python', 'api.py']
+          env:
+          - name: FlaskApp
+            value: "api.py"
+          ports:
+          - name: http
+            containerPort: 5000
+
+
+

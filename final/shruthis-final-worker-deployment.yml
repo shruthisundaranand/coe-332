@@ -1,0 +1,36 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shruthis-final-worker-deployment
+  labels:
+    app: shruthis-final-worker
+    username: shruthis
+    env: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shruthis-final-worker
+  template:
+    metadata:
+      labels:
+        app: shruthis-final-worker
+        username: shruthis
+        env: test
+    spec:
+      containers:
+        - name: worker-final-container
+          imagePullPolicy: Always
+          image: shruthisundaranand/shruthis-final
+          env:
+            - name: "WORKER_IP"
+              valueFrom:
+                fieldRef:
+                  fieldPath: status.podIP
+            - name: WORKER
+              value: "worker.py"
+          ports:
+          - name: http
+            containerPort: 5000
+

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: shruthis-final-redis-service
+  labels:
+    username: shruthis
+    env: test
+spec:
+  type: ClusterIP
+  selector:
+    app: shruthis-final-redis
+  ports:
+  - name: shruthis-redis-final
+    port: 6379
+    targetPort: 6379
+
+
